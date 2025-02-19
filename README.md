@@ -6,14 +6,16 @@ Unet segmentation model with VGG16 as backbone
 2. run the .ipynb file, follow the instructions in it
 
 # Attention
-Files under the directory shoule be arranged like this:   
-root/   
-├── data/   
-|   ├── test   
-|   ├── testannot   
-│   ├── train   
-│   ├── trainannot   
-│   └── train_numpy   
-├── datapreprocess.py   
-├── \<ipynb file\>   
-└── README.md   
+1. 
+  Files under the directory shoule be arranged like this:   
+  root/   
+  ├── data/   
+  |   ├── test   
+  |   ├── testannot   
+  │   ├── train   
+  │   ├── trainannot   
+  │   └── train_numpy   
+  ├── datapreprocess.py   
+  ├── \<ipynb file\>   
+  └── README.md
+2. the `color_map` in `datapreprocess.py` should be set corresponding to the dataset.
